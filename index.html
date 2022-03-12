@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<style type="text/css">
+body{
+	background: url(bg.jpg) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+
 .button {
-    background-color: #4CAF50;
+    background-color: brown;
     border: none;
     color: white;
     padding: 20px 258px;
@@ -15,9 +23,12 @@
     cursor: pointer;
 }
 
-.myInput{
-width:200px;
-height:200px;
+.my-input {
+font-size: 35px;
+color: black;
+line-height:12px;
+width: 500px; 
+height: 50px;
 }
 </style>
 </head>
@@ -25,12 +36,12 @@ height:200px;
 
 
 <div style="display:flex;justify-content:center;align-items:center;">
-  <h1><big><big><big><big><big><big>Регистрация</big></big></big></big></big></big></h1>
+  <h1><big><big><big><big><big><big><font color="White">Регистрация</font></big></big></big></big></big></big></h1>
 </div>
 
 <div style="display:flex;justify-content:center;align-items:center;">
-  <h1>Введите почту:</h1><br><br>
-  <input type="text" style="width: 500px; height: 50px;" /><br><br>
+  <h1><font color="White">Введите почту:</font></h1><br><br>
+  <input type="text" class="my-input" /><br><br>
 </div>
 
 <div style="display:flex;justify-content:center;align-items:center;">
