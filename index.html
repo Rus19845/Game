@@ -1,22 +1,81 @@
 <head>
 <style type="text/css">
-  .A {
-      width: 450px;
-      height: 450px;
-      border: 1px solid #ccc;
-      margin: auto;
-      padding: 30px 30px;
-      }
-      img {
-      width: 100%;
-      height: 100%;
-      }
+  body {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fone.jpg);
+  color: #fff;
+  font-family: sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
+  nav {
+    width:800px;
+    margin: 0 auto;
+  }
+
+  nav:before {
+    content: '';
+    display: block;
+    height:70px;
+    width:100%;
+    background: #009B76;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+  }
+
+  ul li {
+    float: left;
+  }
+
+
+  ul li a{
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding: 10 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+  }
+
+  ul li a:hover {
+    background: #d34e43;
+  }
 </style>
 </head>
 
-<div class="A">
-      <img src="images/IMG-20220623-WA0021.jpg" alt="Nature">
-</div>
-<div style="display:flex;justify-content:center;align-items:center;">
-  <h1><font color="black">Алина в 300 метрах от вас</font></h1>
-</div>
+
+
+<nav>
+  
+  <ul>
+    <li><a href="">Видео</a></li>
+    <li><a href="">Информация</a></li>
+  </ul>
+</nav>
+
